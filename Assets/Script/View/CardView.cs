@@ -49,7 +49,6 @@ namespace openl5r.View
             int fontSize = Constants.TITLE_BIG_FONT_SIZE;
             if (card.title.Length > Constants.TITLE_MAX_CHAR)
             {
-                Debug.Log("Small Title");
                 fontSize = Constants.TITLE_SMALL_FONT_SIZE;
             }
             string title = "";
