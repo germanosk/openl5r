@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="openl5r.Basic.Ability.CardAbility">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\Ability\CardAbility.cs</FileName>
+      <NewMemberFileName>Assets\Script\Basic\Card.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.Basic.DynastyCard">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\DynastyCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.Basic.FateCard">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\FateCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.Basic.Holding">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\Holding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.Basic.Personality">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAACACgEABAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Script\Basic\Personality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.Basic.Player">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAIAAAEAAAAAAAAABAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fateDeck" />
+      <Field Name="destinyDeck" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="openl5r.Basic.Stronghold">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Script\Basic\Stronghold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.Basic.Deck">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAgAAAAIAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Script\Basic\Deck.cs</FileName>
+      <NewMemberFileName>Assets\Script\Basic\Card.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="openl5r.View.PersonalityCardView">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\View\PersonalityCardView.cs</FileName>
+      <NewMemberFileName>Assets\Script\View\DestinyCardView.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="openl5r.Basic.Clan" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAIEAAAAAAAACAYAAAACAAAgAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Script\Basic\RulesEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="openl5r.Basic.Family" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\RulesEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="openl5r.Basic.Keyword" Collapsed="true">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Basic\RulesEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
